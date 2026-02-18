@@ -2,32 +2,32 @@ import style from './BreadList.module.css'
 
 const breads = [
     {
-        img: '/img/GallaryList/Bread/bread1.jpg',
+        img: './img/GallaryList/Bread/bread1.jpg',
         id: 1,
         title: 'Rustic Sourdough'
     },
     {
-        img: '/img/GallaryList/Bread/bread2.jpg',
+        img: './img/GallaryList/Bread/bread2.jpg',
         id: 2,
         title: 'Golden Braided'
     },
     {
-        img: '/img/GallaryList/Bread/bread3.jpg',
+        img: './img/GallaryList/Bread/bread3.jpg',
         id: 3,
         title: 'Multigrain Loaf'
     },
     {
-        img: '/img/GallaryList/Bread/bread4.jpg',
+        img: './img/GallaryList/Bread/bread4.jpg',
         id: 4,
         title: 'Classic Baguette'
     },
     {
-        img: '/img/GallaryList/Bread/bread5.jpg',
+        img: './img/GallaryList/Bread/bread5.jpg',
         id: 5,
         title: 'Butter Brioche'
     },
     {
-        img: '/img/GallaryList/Bread/bread6.jpg',
+        img: './img/GallaryList/Bread/bread6.jpg',
         id: 6,
         title: 'Seeded Rye'
     },
