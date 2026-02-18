@@ -6,37 +6,37 @@ const products = [
         id: 1,
         title: "Whole Grain Brain",
         price: 40,
-        img: "/img/Product/product1.png"
+        img: "./img/Product/product1.png"
     },
     {
         id: 2,
         title: "Whole Grain Brain",
         price: 40,
-        img: "/img/Product/product2.png"
+        img: "./img/Product/product2.png"
     },
     {
         id: 3,
         title: "Whole Grain Brain",
         price: 40,
-        img: "/img/Product/product3.png"
+        img: "./img/Product/product3.png"
     },
     {
         id: 4,
         title: "Whole Grain Brain",
         price: 40,
-        img: "/img/Product/product4.png"
+        img: "./img/Product/product4.png"
     },
     {
         id: 5,
         title: "Whole Grain Brain",
         price: 40,
-        img: "/img/Product/product5.png"
+        img: "./img/Product/product5.png"
     },
     {
         id: 6,
         title: "Whole Grain Brain",
         price: 40,
-        img: "/img/Product/product6.png"
+        img: "./img/Product/product6.png"
     }
 ]
 
