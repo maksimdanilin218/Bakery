@@ -2,32 +2,32 @@ import style from "./Muffins.module.css"
 
 const muffins = [
     {
-        img: '/img/GallaryList/Muffins/muffins1.jpg',
+        img: './img/GallaryList/Muffins/muffins1.jpg',
         id: 1,
         title: 'Choco Chunk'
     },
     {
-        img: '/img/GallaryList/Muffins/muffins2.jpg',
+        img: './img/GallaryList/Muffins/muffins2.jpg',
         id: 2,
         title: 'Blueberry'
     },
     {
-        img: '/img/GallaryList/Muffins/muffins3.jpg',
+        img: './img/GallaryList/Muffins/muffins3.jpg',
         id: 3,
         title: 'Lemon Ctream'
     },
     {
-        img: '/img/GallaryList/Muffins/muffins4.jpg',
+        img: './img/GallaryList/Muffins/muffins4.jpg',
         id: 4,
         title: 'Classic Choco'
     },
     {
-        img: '/img/GallaryList/Muffins/muffins5.jpg',
+        img: './img/GallaryList/Muffins/muffins5.jpg',
         id: 5,
         title: 'Triple Choco'
     },
     {
-        img: '/img/GallaryList/Muffins/muffins6.jpg',
+        img: './img/GallaryList/Muffins/muffins6.jpg',
         id: 6,
         title: 'Raspbbery'
     },

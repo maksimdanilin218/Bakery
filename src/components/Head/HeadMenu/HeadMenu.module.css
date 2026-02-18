@@ -11,7 +11,7 @@
     margin: 0 auto;
     max-width: 1280px;
     backdrop-filter: blur(10px);
-    z-index: 2;
+    z-index: 5;
 }
 ul{
     display: flex;

@@ -2,13 +2,13 @@ import style from './NewsCard.module.css'
 
 const news = [
     {
-        img: '/img/News/news1.png',
+        img: './img/News/news1.png',
         title: 'June 14,2024',
         text: 'Puff pastry bliss.',
         id: 1
     },
     {
-        img: '/img/News/news2.png',
+        img: './img/News/news2.png',
         title: 'June 14,2024',
         text: 'Puff pastry bliss.',
         id: 2
