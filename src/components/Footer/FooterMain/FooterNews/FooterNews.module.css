@@ -1,0 +1,21 @@
+.news{
+    width: 400px;
+
+}
+.title{
+    font-size: 36px;
+    font-family: "Inter", sans-serif;
+    color: #E9BD8D;
+    text-align: left;
+}
+.text{
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    text-align: left;
+}
+
+@media(max-width: 1080px){
+    .title{
+        text-align: center;
+    }
+}

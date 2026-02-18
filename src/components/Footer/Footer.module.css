@@ -1,0 +1,30 @@
+.footer{
+    max-width: 1280px;
+    height: 600px;
+    background-image: url(/img/footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hr{
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #E9BD8D;
+    border: none;
+    height: 1px;
+
+}
+.title{
+    color: #737373;
+    font-size: 24px;
+    padding-top: 20px;
+}
+@media (max-width: 1080px){
+    .footer{
+        height: 900px;
+    }
+}
+@media (max-width: 635px){
+    .footer{
+        height: 1300px;
+    }
+}

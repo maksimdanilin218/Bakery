@@ -1,0 +1,29 @@
+.card{
+    width: 280px;
+    height: 280px;
+    background-image: url(/img/cardBgi.png);
+    background-repeat: no-repeat;
+    border-radius: 30px;
+}
+.img{
+    margin-top: 30px;
+    width: 180px;
+    height: 180px;
+    border-radius: 30px;
+}
+.title{
+    font-size: 18px;
+    text-align: left;
+    font-family: "Inter", sans-serif;
+    padding-bottom: 20px;
+    color: white;
+    text-align: center;
+}
+.favorite{
+    margin-top: 40px;
+    width: 1100px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 40px;
+}

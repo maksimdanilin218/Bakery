@@ -1,0 +1,41 @@
+.PromoBanner {
+    max-width: 1280px;
+    height: 400px;
+    margin: 0 auto;
+    background-image: url(/img/PromoBanner.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 360px;
+    text-align: center;
+}
+.title {
+    font-size: 50px;
+    color: #933C24;
+}
+
+.text {
+    font-size: 24px;
+    width: 330px;
+    color: #5D5D5D;
+}
+
+.button{
+    width: 195px;
+    height: 60px;
+    background-color: #933C24;
+    color: white;
+    border: none;
+    font-size: 24px;
+}
+.button:hover{
+    transition: all 0.5s;
+    transform: scale(1.1);
+}

@@ -1,0 +1,13 @@
+.explore{
+    width: 300px;
+    text-align: center;
+}
+.title{
+    font-size: 36px;
+    font-family: "Inter", sans-serif;
+    color: #E9BD8D;
+}
+.text{
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+}

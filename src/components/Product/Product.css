@@ -1,0 +1,8 @@
+.ProductContainer{
+    padding-top: 70px;
+    margin-bottom: 80px;
+}
+.cardContainer{
+    display: flex;
+    justify-content: center;
+}

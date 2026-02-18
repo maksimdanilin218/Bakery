@@ -1,0 +1,38 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.HeadMenu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 1280px;
+    backdrop-filter: blur(10px);
+    z-index: 2;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logoItem{
+    width: 80px;
+    height: 80px;
+    padding: 10px 0;
+}
+.timeContainer{
+    padding: 10px;
+}
+.time{
+    font-size: 30px;
+}
+
+
+@media (max-width: 650px){
+    .timeContainer{
+        display: none;
+    }
+}

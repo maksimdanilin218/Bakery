@@ -1,0 +1,40 @@
+.HeadInfo{
+    width: 450px;
+    padding-top: 200px;
+    padding-left: 30px;
+}
+.text{
+    padding-left: 10px;
+    font-family: "Inter", sans-serif;
+    width: 170px;
+    margin: 0;
+    font-size: 24px;
+    color: #E9BD8C;
+}
+.title{
+    margin: 0;
+    font-size: 74px;
+    font-family: "Sansita Swashed", system-ui;
+    font-weight: 400;
+    text-align: left;
+}
+.btn{
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+}
+.btn:first-child{
+    background-color: #E9BD8C;
+    border: none;
+}
+.btn:hover{
+    transition: all 0.5s;
+    transform: scale(1.1);
+}
+.InfoButton{
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
