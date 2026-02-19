@@ -13,7 +13,7 @@ export default function HeadMenu() {
         <header className={style.header}>
             <div className={style.HeadMenu}>
                 <img className={style.logoItem} src={logo} alt="" />
-                <ul>
+                <ul className={style.ul}>
                     <MenuItem title="Home" />
                     <MenuItem title="Blog" />
                     <MenuItem title="Contact" />

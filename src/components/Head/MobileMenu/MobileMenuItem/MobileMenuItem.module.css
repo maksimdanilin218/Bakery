@@ -1,0 +1,14 @@
+.text {
+    display: block;
+    padding: 12px 24px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.text:hover {
+    background-color: #CFD8DC;
+}

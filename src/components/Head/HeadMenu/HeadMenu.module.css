@@ -13,7 +13,7 @@
     backdrop-filter: blur(10px);
     z-index: 5;
 }
-ul{
+.ul{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -31,8 +31,8 @@ ul{
 }
 
 
-@media (max-width: 650px){
-    .timeContainer{
+@media (max-width: 980px){
+    .header{
         display: none;
     }
 }
