@@ -8,3 +8,9 @@
     color: white;
     font-family: "Sansita Swashed", system-ui;
 }
+@media(max-width: 1080px){
+    .title{
+        font-size: 48px;
+        margin: 0 auto;
+    }
+}

@@ -39,3 +39,14 @@
     transition: all 0.5s;
     transform: scale(1.1);
 }
+@media(max-width: 1080px){
+    .container{
+        width: 300px;
+    }
+    .title{
+        font-size: 40px;
+    }
+    .text{
+        width: 300px;
+    }
+}

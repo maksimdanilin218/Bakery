@@ -4,10 +4,15 @@ import { useState } from "react"
 import MobileMenuItem from "./MobileMenuItem/MobileMenuItem.jsx"
 
 export default function MobileMenu() {
+    // Burger menu
     const [isOpen, setIsOpen] = useState(false);
     const toggleMenu = () => {
         setIsOpen(!isOpen)
     }
+    // time
+    const [time, setTime] = useState(new Date())
+    setInterval(() => setTime(new Date()), 1000)
+
 
     return (
         <div className={style.header}>
@@ -31,7 +36,12 @@ export default function MobileMenu() {
                         <MobileMenuItem title="Contact" />
                     </ul>
                 </nav>
+                {/* Logo */}
                 <img className={style.logo} src={logo} alt="" />
+                {/* time */}
+                <div className={style.timeContainer}>
+                    <h1 className={style.time}>{time.toLocaleTimeString()}</h1>
+                </div>
             </div>
         </div>
     )

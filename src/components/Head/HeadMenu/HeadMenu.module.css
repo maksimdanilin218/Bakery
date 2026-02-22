@@ -3,6 +3,10 @@
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 99;
+    background-image: url(./img/footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .HeadMenu{
     display: flex;
@@ -10,8 +14,7 @@
     justify-content: space-around;
     margin: 0 auto;
     max-width: 1280px;
-    backdrop-filter: blur(10px);
-    z-index: 5;
+    z-index: 99;
 }
 .ul{
     display: flex;

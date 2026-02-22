@@ -52,11 +52,13 @@
     .HeadInfo{
         margin: 0 auto;
         padding-left: 0;
+        width: 360px;
     }
     .InfoButton{
         width: 350px;
     }
     .btn{
         width: 150px;
+        color: white;
     }
 }

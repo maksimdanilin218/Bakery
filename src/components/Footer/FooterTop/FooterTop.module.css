@@ -1,29 +1,48 @@
-.footerTop{
+.footerTop {
     padding-top: 30px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.img{
+
+.img {
     width: 100px;
     height: 100px;
 }
-.text{
+
+.text {
     font-size: 24px;
     color: #E9BD8D;
+    padding-right: 10px;
 }
-.link{
+
+.link {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.icon{
+
+.icon {
     cursor: pointer;
     width: 40px;
     height: 40px;
-    padding-left: 10px;
 }
-.icon:hover{
+
+.icon:hover {
     transition: all 0.5s;
     transform: scale(1.1);
+}
+
+.iconContainer {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+@media(max-width:1080px) {
+    .iconContainer {
+        width: 150px;
+        gap: 20px;
+    }
 }
