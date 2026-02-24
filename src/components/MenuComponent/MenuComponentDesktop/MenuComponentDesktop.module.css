@@ -1,0 +1,38 @@
+.DesktopContainer{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 1280px;
+    z-index: 99;
+    background:  rgba(0, 0, 0, 0.5);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.logo{
+    width: 220px;
+    height: 80px;
+    padding: 5px;
+    filter: brightness(0) saturate(100%) invert(78%) sepia(31%) saturate(511%) hue-rotate(344deg) brightness(94%) contrast(90%);
+    object-fit: cover;
+}
+.ul{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.timeContainer{
+    padding: 10px;
+}
+.time{
+    font-size: 30px;
+    color: #E9BD8C;
+}
+@media (max-width: 980px){
+    .DesktopContainer{
+        display: none;
+    }
+}

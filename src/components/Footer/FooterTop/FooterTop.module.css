@@ -6,8 +6,11 @@
 }
 
 .img {
-    width: 100px;
-    height: 100px;
+    width: 220px;
+    height: 80px;
+    padding: 5px;
+    filter: brightness(0) saturate(100%) invert(78%) sepia(31%) saturate(511%) hue-rotate(344deg) brightness(94%) contrast(90%);
+    object-fit: cover;
 }
 
 .text {

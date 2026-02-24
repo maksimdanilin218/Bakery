@@ -1,0 +1,21 @@
+.title{
+    padding-right: 20px;
+    color: #E9BD8C;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+}
+.title:hover{
+    transition: all 0.5s;
+    transform: scale(1.1);
+    color: #E9BD8C;
+}
+.MenuItem:last-child{
+    padding-right: 0;
+}
+.MenuItem:hover{
+    transition: all 0.5s;
+    transform: scale(1.1);
+    color: #E9BD8C;
+}

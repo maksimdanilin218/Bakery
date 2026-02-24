@@ -1,5 +1,5 @@
 import style from './FooterTop.module.css'
-import logo from '/img/logo.svg'
+import logo from "/img/newLogo.png"
 
 
 

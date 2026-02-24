@@ -1,0 +1,17 @@
+.ProductGallary{
+    padding: 60px 0;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.title{
+    font-size: 64px;
+    color: white;
+    font-family: "Sansita Swashed", system-ui;
+    margin-bottom: 20px;
+}
+@media(max-width: 1080px){
+    .title{
+        font-size: 48px;
+        margin: 0 auto;
+    }
+}
