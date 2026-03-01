@@ -1,6 +1,7 @@
 import { useState } from "react";
 import style from "./MenuComponentMobile.module.css"
 import MenuComponentItem from "../MenuComponentItem/MenuComponentItem.jsx"
+import { NavLink } from "react-router-dom";
 import logo from "/img/newLogo.png"
 
 export default function MenuComponentMobile() {
@@ -29,10 +30,10 @@ export default function MenuComponentMobile() {
             {/* Menu */}
             <nav className={`${style.menu} ${isOpen ? style.open : ""}`}>
                 <ul className={style.ul}>
-                    <MenuComponentItem to="/" title="Home" />
-                    <MenuComponentItem to="/blog" title="Blog" />
-                    <MenuComponentItem to="/contact" title="Contact" />
-                    <MenuComponentItem to="/service" title="Service" />
+                    <NavLink className={style.link} to="/home">Home</NavLink>
+                    <NavLink className={style.link} to="/blog">Blog</NavLink>
+                    <NavLink className={style.link} to="/contact">Contatc</NavLink>
+                    <NavLink className={style.link} to="/service">Servive</NavLink>
                 </ul>
             </nav>
             {/* Logo */}

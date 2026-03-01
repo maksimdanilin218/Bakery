@@ -1,0 +1,19 @@
+.CategoryContainer{
+    max-width: 1280px;
+    margin-top: -200px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+.btn{
+    text-align: center;
+    width: 110px;
+    background-color: #E9BD8C;
+    color: white;
+}
+@media(max-width: 1080px){
+    .CategoryContainer{
+        padding: 200px 0 40px 0;
+    }
+}

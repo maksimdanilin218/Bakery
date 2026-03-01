@@ -1,0 +1,83 @@
+.NewsCard{
+    position: relative;
+    width: 350px;
+    height: 600px;
+    background-image: url(./bgiMain2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+    border-radius: 20px;
+}
+.cardImg{
+    position: relative;
+}
+.img{
+    width: 350px;
+    height: 350px;
+    background-size: contain;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.category{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background-color: #E9BD8C;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 15px;
+    font-size: 16px;
+}
+.cardInfo{
+    max-width: 270px;
+    text-align: start;
+    overflow-wrap: break-word;
+    hyphens: auto;
+    padding-left: 20px;
+}
+.title{
+    color: aliceblue;
+    font-size: 24px;
+    text-align: start;
+    margin: 0;
+    height: 70px;
+}
+.date{
+    margin: 0;
+    color: #E9BD8C;
+}
+.description{
+    margin: 0;
+    padding-top: 5px;
+}
+.container{
+    padding: 200px 0 40px 0;
+    margin: 0 auto;
+    max-width: 1280px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn{
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    background-color: #E9BD8C;
+    color: white;
+    padding: 5px 15px;
+}
+
+@media(max-width: 1080px){
+    .container{
+        padding: 20px 0;
+    }
+    .NewsCard{
+        width: 300px;
+    }
+    .img{
+        width: 300px;
+        height: 300px;
+    }
+}

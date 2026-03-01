@@ -1,6 +1,6 @@
 import style from "./MenuComponent.module.css"
-import MenuComponentDesktop from "./MenuComponentDesktop/MenuComponentDesktop.jsx"
-import MenuComponentMobile from "./MenuComponentMobile/MenuComponentMobile.jsx"
+import MenuComponentDesktop from "./MenuComponentDesktop/MenuComponentDesktop"
+import MenuComponentMobile from "./MenuComponentMobile/MenuComponentMobile"
 
 export default function MenuComponent() {
     return (

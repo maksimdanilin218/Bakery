@@ -77,6 +77,25 @@
     padding: 0;
     text-align: center;
 }
+.ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.link{
+    width: 200px;
+    padding-bottom: 10px;
+    color: #E9BD8C;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+}
+.link:hover{
+    transition: all 0.5s;
+    transform: scale(1.1);
+    color: #E9BD8C;
+}
 /* open menu */
 .open{
     left: 0;
