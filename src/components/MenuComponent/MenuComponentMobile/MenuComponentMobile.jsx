@@ -30,7 +30,7 @@ export default function MenuComponentMobile() {
             {/* Menu */}
             <nav className={`${style.menu} ${isOpen ? style.open : ""}`}>
                 <ul className={style.ul}>
-                    <NavLink className={style.link} to="/home">Home</NavLink>
+                    <NavLink className={style.link} to="/">Home</NavLink>
                     <NavLink className={style.link} to="/blog">Blog</NavLink>
                     <NavLink className={style.link} to="/contact">Contatc</NavLink>
                     <NavLink className={style.link} to="/service">Servive</NavLink>

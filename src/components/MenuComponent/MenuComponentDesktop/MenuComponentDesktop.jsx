@@ -13,7 +13,7 @@ export default function MenuComponentDesktop() {
         <div className={style.DesktopContainer}>
             <img className={style.logo} src={logo} alt="" />
             <ul className={style.ul}>
-                <NavLink className={style.link} to="/home">Home</NavLink>
+                <NavLink className={style.link} to="/">Home</NavLink>
                 <NavLink className={style.link} to="/blog">Blog</NavLink>
                 <NavLink className={style.link} to="/contact">Contatc</NavLink>
                 <NavLink className={style.link} to="/service">Servive</NavLink>
