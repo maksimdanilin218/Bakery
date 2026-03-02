@@ -5,7 +5,7 @@ export const newsData = [
         title: "New Seasonal Menu: Spring Delights",
         date: "April 20, 2024",
         description: "Discover our fresh, seasonal menu featuring delicious spring-inspired pastries.",
-        img: "spring-menu.jpg"
+        img: "./BlogComponentImage/BlogList/NewsSection/news1.png"
     },
     {
         id: 200,
@@ -13,7 +13,7 @@ export const newsData = [
         title: "Join Us for a Bread Baking Workshop!",
         date: "April 16, 2024",
         description: "Sign up for our hands-on bread baking workshop and learn from our expert bakers.",
-        img: "baking-workshop.jpg"
+        img: "./BlogComponentImage/BlogList/NewsSection/news2.png"
     },
     {
         id: 300,
@@ -21,7 +21,7 @@ export const newsData = [
         title: "Celebrating National Sourdough Day",
         date: "April 12, 2024",
         description: "Celebrate National Sourdough Day with us and enjoy special sourdough treats and discounts.",
-        img: "sourdough-day.jpg"
+        img: "./BlogComponentImage/BlogList/NewsSection/news3.png"
     },
     {
         id: 400,
@@ -29,7 +29,7 @@ export const newsData = [
         title: "Our Bakery Featured in 'Best of the City'",
         date: "April 5, 2024",
         description: "We're thrilled to be recognized as one of the best local bakeries in the city.",
-        img: "best-of-city.jpg"
+        img: "./BlogComponentImage/BlogList/NewsSection/news4.png"
     },
     {
         id: 500,
@@ -37,7 +37,7 @@ export const newsData = [
         title: "Behind the Scenes: A Day in Our Bakery",
         date: "March 28, 2024",
         description: "Take a peek behind the scenes and see what it's like to work in our bustling bakery.",
-        img: "behind-scenes.jpg"
+        img: "./BlogComponentImage/BlogList/NewsSection/news5.png"
     },
     {
         id: 600,
@@ -45,7 +45,7 @@ export const newsData = [
         title: "Local Farmers’ Market Opening Soon!",
         date: "March 20, 2024",
         description: "Get ready for our local farmers market opening this spring, featuring fresh ingredients and baked goods.",
-        img: "farmers-market.jpg"
+        img: "./BlogComponentImage/BlogList/NewsSection/news6.png"
     }
 ];
 

@@ -7,7 +7,7 @@ import NewsSection from "../BlogSection/NewsSection/NewsSection"
 import InsprationSection from "../BlogSection/InsprationSection/InsprationSection"
 
 export default function BLogCategory() {
-    const [activeCategory, setActiveCategory] = useState('events')
+    const [activeCategory, setActiveCategory] = useState('news')
 
     return (
         <div className={style.CategoryContainer}>
