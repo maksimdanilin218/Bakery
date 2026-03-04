@@ -1,0 +1,17 @@
+.container{
+    margin: 40px auto;
+    max-width: 1280px;
+    height: 700px;
+    background-image: url(/ContactComponent/formBgi.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    flex-wrap: wrap;
+}
+@media(max-width: 1040px){
+    .container{
+        height: 1200px;
+    }
+}

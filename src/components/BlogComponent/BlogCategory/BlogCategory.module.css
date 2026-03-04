@@ -8,7 +8,8 @@
 }
 .btn{
     text-align: center;
-    width: 110px;
+    padding: 5px;
+    width: 105px;
     background-color: #E9BD8C;
     color: white;
 }

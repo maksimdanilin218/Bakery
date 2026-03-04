@@ -1,0 +1,32 @@
+.container{
+    max-width: 400px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.icon{
+    width: 55px;
+    height: 55px;
+    padding-left: 10px;
+}
+.info{
+    text-align: start;
+    display: block;
+}
+.title{
+    font-size: 20px;
+    color: white;
+    margin: 0;
+}
+.text{
+    font-size: 14px;
+    margin: 0;
+}
+.InformationItem{
+    max-width: 400px;
+}
+hr{
+    background-color: #E9BD8C;
+    height: 1px;
+    border: none;
+}

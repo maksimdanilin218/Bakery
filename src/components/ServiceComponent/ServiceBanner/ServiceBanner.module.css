@@ -1,0 +1,36 @@
+.Container{
+    max-width: 1280px;
+    height: 750px;
+    background-image: url(../ServiceComponent/serviceBgi.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.title{
+    font-size: 64px;
+    margin: 0 auto 20px auto;
+    color: #E9BD8C;
+}
+.text{
+    font-size: 20px;
+    margin: 0 auto;
+    color: white;
+}
+
+@media(max-width: 1080px){
+    .title{
+        font-size: 48px;
+    }
+    .text{
+        font-size: 18px;
+    }
+    .info{
+        margin-top: -60px;
+    }
+}
