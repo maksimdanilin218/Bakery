@@ -2,7 +2,7 @@
     position: relative;
     width: 350px;
     height: 600px;
-    background-image: url(./bgiMain2.jpg);
+    background-image: url(../bgiMain2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 1;

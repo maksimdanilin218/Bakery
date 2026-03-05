@@ -1,6 +1,6 @@
 .card{
     max-width: 450px;
-    background-image: url(./bgiMain2.jpg);
+    background-image: url(../bgiMain2.jpg);
     border-radius: 15px;
 }
 .cardImg{
